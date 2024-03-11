@@ -3,4 +3,8 @@ project(MercatorProjection)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(MercatorProjection main.cpp)
+add_executable(MercatorProjection main.cpp
+        Matrix.h
+        Bmp.cpp
+        Bmp.h
+)
